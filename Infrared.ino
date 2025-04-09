@@ -1,3 +1,6 @@
+//SISTEM DISPENSER OTOMATIS MENGGUNAKAN SENSOR INFRARED
+//BY MUHAMMAD VICKY FIRNANSYAH 
+//https://github.com/VICKYFIRNANSYAH
 #include <Servo.h>
 
 Servo myservo;
@@ -16,6 +19,7 @@ void setup() {
 
   // Inisialisasi pin sensor infrared
   pinMode(sensorPin, INPUT_PULLUP);  // Sensor IR aktif LOW, gunakan internal pull-up resistor
+  //https://github.com/VICKYFIRNANSYAH
 }
 
 void loop() {
